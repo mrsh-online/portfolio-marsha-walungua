@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap')
+
+.noisy-bg 
+  width: 100vw
+  height: 100vh
+  display: flex
+  justify-content: center
+  align-items: center
+  font-family: 'Roboto', sans-serif
+  color: white
+  text-align: center
+
+  // Gradient background
+  background: linear-gradient(135deg, #e7f2f8,#000, #74bdcb, #ffa384,#000, #efe7bc)
+  background-size: 400% 400%
+
+  // Animate gradient
+  animation: gradientShift 35s ease infinite
+
+  // Noise overlay using a pseudo-element
+  position: relative
+  overflow: hidden
+
+  &::after 
+    content: ""
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    pointer-events: none
+
+    // Noise texture
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=')
+    opacity: 0.05 // subtle noise
+    z-index: 1
+  
+
+  > * 
+    position: relative
+    z-index: 2
+  
+
+
+@keyframes gradientShift 
+  0% 
+    background-position: 0% 50% 
+  50% 
+    background-position: 100% 50% 
+  100% 
+    background-position: 0% 50% 
+
