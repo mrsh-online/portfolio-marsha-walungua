@@ -24,7 +24,7 @@ function App() {
         <Home lang={lang}/>
         <Work lang={lang}/>
         <Competence />
-        <CV />
+        <CV lang={lang}/>
         <Contacts lang={lang}/>
         <Footer/>
     </main>
