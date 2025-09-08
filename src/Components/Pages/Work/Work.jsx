@@ -2,7 +2,7 @@ import works from "./works.js"
 
 function Work({lang}){
   return(
-    <section className="Works">
+    <section className="Works" id="Work">
       <h1>Works</h1>
 
       {works.map((e,i)=>{return(

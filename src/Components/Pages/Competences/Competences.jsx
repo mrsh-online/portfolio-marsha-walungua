@@ -1,7 +1,7 @@
 export default function Competences(){
   return (
-    <section className="Competences">
-      <h2>Competences</h2>
+    <section className="Competences" id="stack">
+      <h2>Stack</h2>
       
       <div className="CompetencesFront">
       

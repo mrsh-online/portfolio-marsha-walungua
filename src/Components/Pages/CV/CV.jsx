@@ -1,5 +1,12 @@
+import FilePreview from "reactjs-file-preview";
+
 export default function CV(){
-  return(<section>
-    <p>Télécharger mon CV</p>
+  return(<section className="cv" id="cv">
+    <a href="/CV.pdf" target="_blank">Télécharger mon CV</a>
+
+    <FilePreview 
+        preview={"/CV.pdf"}
+    />
+    
   </section>)
 }

@@ -8,6 +8,7 @@ import Background from "./Components/Background/Background.jsx"
 import Certifications from "./Components/Pages/Certifications/Certifications.jsx"
 import Competence from "./Components/Pages/Competences/Competences.jsx"
 import CV from "./Components/Pages/CV/CV.jsx"
+import Footer from "./Components/Footer.jsx"
 import {BrowserRouter, Routes, Route} from "react-router"
 
 function App() {
@@ -23,9 +24,9 @@ function App() {
         <Home lang={lang}/>
         <Competence />
         <Work lang={lang}/>
-        <Certifications />
         <CV />
         <Contacts lang={lang}/>
+        <Footer/>
     </main>
   )
 }

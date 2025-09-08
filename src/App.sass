@@ -48,7 +48,7 @@ section
     margin-inline: auto
     font-size: 30px
   
-header,aside
+header,aside, footer
   p, li, a
     font-family: "Alata"
     color: white
@@ -81,16 +81,21 @@ aside
   width: 100vw
 
   
-header
+header, footer
   width: 100%
   display : flex
   padding: 20px
   justify-content: space-between
   align-items: center
   
+footer
+  justify-content: center
+
+  
 
 nav
   position: fixed
+  z-index: 50
   width: 50%
   left: 0
   top: 0
@@ -119,6 +124,7 @@ nav
     font-size: 1.5em 
     
 .HomeLang
+  z-index: 100
   top: 10%
   position: fixed
   width: 50%
@@ -131,6 +137,7 @@ nav
   font-size: 1rem
     
 .burger
+  z-index: 100
   position: absolute
   display: flex
   flex-direction: column
@@ -264,6 +271,9 @@ nav
     
     
 .Contacts
+  display: flex
+  flex-direction: column
+  justify-content: center
   &Links
     width: 100%
     display: flex
@@ -302,8 +312,10 @@ nav
       margin: 10px auto
       background: white
       &:hover
-        color: pink 
-        background: black 
+        background: rgba(125, 125, 125, 0.1)
+        backdrop-filter: blur(22px)
+        -webkit-backdrop-filter: blur(12px)
+        color: white 
     &Img
       width: 90%
       img
@@ -325,7 +337,7 @@ nav
     align-items: center
     gap: 5px
     p
-      width: 48%
+      width: 22%
       text-align: center
       display: flex
       flex-direction: column
@@ -337,3 +349,30 @@ nav
           transform: scale(1.4)
           cursor: pointer
 
+//CV
+
+.cv
+  display: flex
+  flex-direction: column
+  gap: 20px
+  width: 80%
+  justify-content: center
+  align-items: center
+  *
+    cursor: pointer 
+  a 
+    z-index: 0 
+    color: black
+    font-family: 'alata'
+    background: white
+    border: 2px solid white
+    text-align: center
+    width: 250px
+    margin: auto
+    font-size: 1.5rem
+    border-radius: 5px
+    &:hover
+      background: rgba(125, 125, 125, 0.1)
+      backdrop-filter: blur(22px)
+      -webkit-backdrop-filter: blur(12px)
+      color: white 

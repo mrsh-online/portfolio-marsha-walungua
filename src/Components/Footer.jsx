@@ -1,7 +1,7 @@
 export default function Footer(){
   return(
     <footer>
-      <p>© Marsha Walungua | 2025</p>
+      <a>© Marsha Walungua | 2025 | Self Host</a>
     </footer>
   )
 }

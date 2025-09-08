@@ -1,10 +1,10 @@
 function Contacts(){
   return(
-    <section className="Contacts">
+    <section className="Contacts" id="#contacts">
       <h1>Contacts</h1>
       <div className="ContactsLinks">
         <a href="mailto:mrsh-online@proton.me" target="_blank">Mail</a>
-        <a href="https://github.com/mrsh-online" target="_blank">Github</a>
+        <a href="https://www.linkedin.com/in/marsha-walungua-b53295383" target="_blank">Linkedin</a>
       </div>
     
   </section>)

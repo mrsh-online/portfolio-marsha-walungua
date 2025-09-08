@@ -3,7 +3,7 @@ import {useState} from "react"
 function Home({ lang}){
 
   return(
-    <section className="Home">
+    <section className="Home" id="Home">
       <div>
 
         {lang === "en" ? 
@@ -12,7 +12,7 @@ function Home({ lang}){
           <p>Hi, I’m Marsha 👋 </p>
           <p> 
           I am a former student of the 3WA Academy, where I was able to acquire diverse skills in web development and design.
-          This portfolio was created with the purpose of showcasing all of my work.
+          This portfolio was created with the purpose of showcasing a part of my work.
           </p>
           </>
           : "" }
@@ -26,7 +26,7 @@ function Home({ lang}){
               Ancienne élève de la 3WA Academy, où j’ai pu acquérir des compétences 
               diverce dans le domaine du développement web et du design. 
 
-              Ce portfolio a été conçu dans le but de présenter l’ensemble de mon travail.
+              Ce portfolio a été conçu dans le but de présenter une partie de mon travail.
               
           </p>
           </>

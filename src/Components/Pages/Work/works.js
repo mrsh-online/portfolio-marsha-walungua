@@ -4,7 +4,7 @@ const works = [
   sumaryEn: "Human For Impact is a mission-driven simplified joint-stock company (SAS), founded in 2022 in Occitanie. This platform enables individuals, investment professionals, and project leaders to propose, select, and finance businesses with a positive social impact—through shares, bonds, cooperative units, or participatory securities—supported by an impact framework structured around four compasses (Transition, Commons & Connection, Care for Living Beings, Quality & Project Viability). This project was developed using the Mipise platform, a white-label fintech solution specialized in the digitalization of participatory financial processes.",
   tech : ["css"],
   img: "/H4I.webp",
-  link:'https://humanforimpact.mipise.com'
+  link:'https://humanforimpact.com'
   },
   {titre:"Ludovic Breant",
   sumaryFr: "Ludovic Bréant, entrepreneur passionné et fondateur de plus d’une centaine d’entreprises à succès, aujourd'hui mentor, conférencier et auteur engagé dans l’entrepreneuriat porteur de sens et la résilience . Son site web et développer grâce à WordPress, offrant ainsi une vitrine digitale.",
