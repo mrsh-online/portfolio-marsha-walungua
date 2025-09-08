@@ -22,8 +22,8 @@ function App() {
         <Header setLang={setLang}/>
         <div className="underHeaderLine"></div>
         <Home lang={lang}/>
-        <Competence />
         <Work lang={lang}/>
+        <Competence />
         <CV />
         <Contacts lang={lang}/>
         <Footer/>
