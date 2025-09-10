@@ -14,9 +14,9 @@ function Header({setLang}){
         <ul onClick={()=>setActive(false)}>
           <li><a href="#Home">Home</a></li>
           <li><a href="#Work">Work</a></li>
-          <li><a href="#Stack">Stack</a></li>
+          <li><a href="#stack">Stack</a></li>
           <li><a href="#cv">CV</a></li>
-          <li><a href="#contacts">Contact</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
         

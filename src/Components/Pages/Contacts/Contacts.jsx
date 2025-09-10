@@ -1,6 +1,6 @@
 function Contacts(){
   return(
-    <section className="Contacts" id="#contacts">
+    <section className="Contacts" id="contact">
       <h1>Contacts</h1>
       <div className="ContactsLinks">
         <a href="mailto:mrsh-online@proton.me" target="_blank">Mail</a>
