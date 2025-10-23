@@ -43,12 +43,12 @@ export default function Competences(){
         <div className="pictoContainer">
           <p>
             <img src="/portfolio-marsha-walungua/competence/node.svg" />
-             node
+             Node
           </p>
             
           <p>
             <img src="/portfolio-marsha-walungua/competence/django.svg" />
-             django
+             Django
           </p>
             
           <p>
@@ -77,7 +77,7 @@ export default function Competences(){
             HTML </p>
           <p>
             <img src="/portfolio-marsha-walungua/competence/CSS.svg" />
-            CSS / SASS / SCSS
+            CSS 
           </p>
           <p>
             <img src="/portfolio-marsha-walungua/competence/Wordpress.svg" />
@@ -93,6 +93,11 @@ export default function Competences(){
           <p>
             <img src="/portfolio-marsha-walungua/competence/Nextjs.svg" />
             Next.JS
+          </p>
+            
+          <p>
+            <img src="/portfolio-marsha-walungua/competence/Sass.svg" />
+              Sass
           </p>
             
         </div>
