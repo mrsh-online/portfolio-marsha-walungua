@@ -10,7 +10,7 @@ export default function CV({lang}){
             }
 
     <FilePreview 
-        preview={"/CV.pdf"}
+        preview={"/portfolio-marsha-walungua/CV.pdf"}
     />
     
   </section>)
