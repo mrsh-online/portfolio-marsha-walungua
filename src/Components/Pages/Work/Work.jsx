@@ -12,7 +12,8 @@ function Work({lang}){
             <h2>{e.titre}</h2>
               
           <a href={e.link} target="_blank" className="WorkElImg">
-            <img src={e.img} />
+                
+            <img src={`/portfolio-marsha-walungua/${e.img}`} />
           </a>
               
             {lang ==="fr" ?
