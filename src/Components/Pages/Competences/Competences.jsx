@@ -1,40 +1,87 @@
+import {useState} from 'react'
 export default function Competences(){
+  const [type, setType] = useState('Languages')
   return (
     <section className="Competences" id="stack">
       <h2>Stack</h2>
+      <div className='CompetencesType'>
+        <a onClick={()=>{setType('Languages')}} >Language</a>
+        <a onClick={()=>{setType('Frontend')}}>Frontend</a>
+        <a onClick={()=>{setType('Backend')}}>Backend</a>
+        <a onClick={()=>{setType('SEO | Marketing')}}>SEO | Marketing</a>
+        <a onClick={()=>{setType('Design')}}>Design</a>
+        <a onClick={()=>{setType('Productivité')}}>Productivité</a>
+      </div>
       
-      <div className="CompetencesFront">
       
-        <h3>Languages</h3>
+      
+        <h3>{type}</h3>
+      
+      <div className="CompetencesFramework">
+        {type === 'Languages' ? 
         <div className="pictoContainer">
-          <p>
-            <img src="/competence/HTML.svg" />
-            HTML </p>
-          <p>
-            <img src="/competence/CSS.svg" />
-            CSS 
-          </p>
           <p>
             <img src="/competence/PHP.svg" />
             PHP 
           </p>
           <p>
             <img src="/competence/Javascript.svg" />
-            Javascript</p>
+            Javascript
+          </p>
+          <p>
+            <img src="/competence/python.svg" />
+           Python
+          </p>
+          <p>
+            <img src="/competence/sql.svg" />
+           SQL
+          </p>
         </div>
-      </div>
-      
-      <div className="CompetencesFramework">
-        <h3>Framework | CRM</h3>
+          : null}
+        
+        {type === 'Backend' ? 
         <div className="pictoContainer">
+          <p>
+            <img src="/competence/node.svg" />
+             node
+          </p>
+            
+          <p>
+            <img src="/competence/django.svg" />
+             django
+          </p>
+            
+          <p>
+            <img src="/competence/mysql.svg" />
+           MySql 
+          </p>
+            
+          <p>
+            <img src="/competence/mongo.svg" />
+            Mongo
+          </p>
+            
+          <p>
+            <img src="/competence/express.svg" />
+            Express
+          </p>
+          
+        </div>
+          : null}
+      
+        {type === 'Frontend' ? 
+        <div className="pictoContainer">
+            
+          <p>
+            <img src="/competence/HTML.svg" />
+            HTML </p>
+          <p>
+            <img src="/competence/CSS.svg" />
+            CSS / SASS / SCSS
+          </p>
           <p>
             <img src="/competence/Wordpress.svg" />
             Wordpress
-          </p>
-          
-          <p>
-            <img src="/competence/Shopify.svg" />
-            Shopify
           </p>
           
           <p>
@@ -42,20 +89,16 @@ export default function Competences(){
             Mipise
           </p>
           
-          <p>
-            <img src="/competence/Dolibarr.svg" />
-            Dolibarr
-          </p>
           
           <p>
             <img src="/competence/Nextjs.svg" />
             Next.JS
           </p>
+            
         </div>
-      </div>
+          : null}
       
-      <div className="CompetencesFramework">
-        <h3>SEO | Marketing</h3>
+        {type === 'SEO | Marketing' ? 
         <div className="pictoContainer">
           <p>
             <img src="/competence/Semrush.svg" />
@@ -77,10 +120,9 @@ export default function Competences(){
             Search Console
           </p>
         </div>
-      </div>
+          : null}
       
-      <div className="CompetencesDesign">
-        <h3>Design</h3>
+        {type === 'Design' ? 
         <div className="pictoContainer">
           <p>
             <img src="/competence/Photoshop.svg" />
@@ -95,18 +137,32 @@ export default function Competences(){
             Figma
           </p>
           <p>
-            
             <img src="/competence/Blender.svg" />
             Blender</p>
         </div>
-      </div>
+          : null}
       
-      <div className="CompetencesProductivite">
-        <h3>Productivité</h3>
+        {type === 'Productivité' ? 
         <div className="pictoContainer">
           <p>
-            <img src="/competence/Chatgpt.svg" />
-            Chat GPT</p>
+            <img src="/competence/github.svg" />
+            Github
+          </p>
+            
+          <p>
+            <img src="/competence/linux.svg" />
+            Linux
+          </p>
+            
+          <p>
+            <img src="/competence/docker.svg" />
+            Docker
+          </p>
+          <p>
+            <img src="/competence/mistral.svg" />
+            Mistral
+          </p>
+            
           <p>
             <img src="/competence/N8N.svg" />
             N8N
@@ -127,6 +183,7 @@ export default function Competences(){
             Google Workspace
           </p>
         </div>
+          : null}
       </div>
       
     </section>

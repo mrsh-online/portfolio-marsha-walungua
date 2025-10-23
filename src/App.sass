@@ -329,10 +329,28 @@ nav
     text-align: center
     font-family: alata
     font-size: 2em
+  &Type
+    display: flex
+    justify-content: space-between 
+    a
+      color: white
+      font-size: 20px
+      font-family: 'Alata'
+      cursor: pointer
+      padding: 5px 20px
+      border-radius: 20px
+      border: 1px solid white
+      &:hover
+        background: white
+        color: black
+      .active
+        background: white
+        color: black
+        
+    
   .pictoContainer
     width: 90%
     margin: 30px auto
-    
     display: flex    
     flex-direction: row 
     flex-wrap: wrap
