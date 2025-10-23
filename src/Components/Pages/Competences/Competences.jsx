@@ -21,19 +21,19 @@ export default function Competences(){
         {type === 'Languages' ? 
         <div className="pictoContainer">
           <p>
-            <img src="/competence/PHP.svg" />
+            <img src="/portfolio-marsha-walungua/competence/PHP.svg" />
             PHP 
           </p>
           <p>
-            <img src="/competence/Javascript.svg" />
+            <img src="/portfolio-marsha-walungua/competence/Javascript.svg" />
             Javascript
           </p>
           <p>
-            <img src="/competence/python.svg" />
+            <img src="/portfolio-marsha-walungua/competence/python.svg" />
            Python
           </p>
           <p>
-            <img src="/competence/sql.svg" />
+            <img src="/portfolio-marsha-walungua/competence/sql.svg" />
            SQL
           </p>
         </div>
@@ -42,27 +42,27 @@ export default function Competences(){
         {type === 'Backend' ? 
         <div className="pictoContainer">
           <p>
-            <img src="/competence/node.svg" />
+            <img src="/portfolio-marsha-walungua/competence/node.svg" />
              node
           </p>
             
           <p>
-            <img src="/competence/django.svg" />
+            <img src="/portfolio-marsha-walungua/competence/django.svg" />
              django
           </p>
             
           <p>
-            <img src="/competence/mysql.svg" />
+            <img src="/portfolio-marsha-walungua/competence/mysql.svg" />
            MySql 
           </p>
             
           <p>
-            <img src="/competence/mongo.svg" />
+            <img src="/portfolio-marsha-walungua/competence/mongo.svg" />
             Mongo
           </p>
             
           <p>
-            <img src="/competence/express.svg" />
+            <img src="/portfolio-marsha-walungua/competence/express.svg" />
             Express
           </p>
           
@@ -73,25 +73,25 @@ export default function Competences(){
         <div className="pictoContainer">
             
           <p>
-            <img src="/competence/HTML.svg" />
+            <img src="/portfolio-marsha-walungua/competence/HTML.svg" />
             HTML </p>
           <p>
-            <img src="/competence/CSS.svg" />
+            <img src="/portfolio-marsha-walungua/competence/CSS.svg" />
             CSS / SASS / SCSS
           </p>
           <p>
-            <img src="/competence/Wordpress.svg" />
+            <img src="/portfolio-marsha-walungua/competence/Wordpress.svg" />
             Wordpress
           </p>
           
           <p>
-            <img src="/competence/Mipise.svg" />
+            <img src="/portfolio-marsha-walungua/competence/Mipise.svg" />
             Mipise
           </p>
           
           
           <p>
-            <img src="/competence/Nextjs.svg" />
+            <img src="/portfolio-marsha-walungua/competence/Nextjs.svg" />
             Next.JS
           </p>
             
@@ -101,22 +101,22 @@ export default function Competences(){
         {type === 'SEO | Marketing' ? 
         <div className="pictoContainer">
           <p>
-            <img src="/competence/Semrush.svg" />
+            <img src="/portfolio-marsha-walungua/competence/Semrush.svg" />
             Semrush
           </p>
           
           <p>
-            <img src="/competence/Mailchimp.svg" />
+            <img src="/portfolio-marsha-walungua/competence/Mailchimp.svg" />
             MailChimp
           </p>
           
           <p>
-            <img src="/competence/Brevo.svg" />
+            <img src="/portfolio-marsha-walungua/competence/Brevo.svg" />
             Brevo
           </p>
           
           <p>
-            <img src="/competence/Google.svg" />
+            <img src="/portfolio-marsha-walungua/competence/Google.svg" />
             Search Console
           </p>
         </div>
@@ -125,19 +125,19 @@ export default function Competences(){
         {type === 'Design' ? 
         <div className="pictoContainer">
           <p>
-            <img src="/competence/Photoshop.svg" />
+            <img src="/portfolio-marsha-walungua/competence/Photoshop.svg" />
             Photoshop
           </p>
           <p>
-            <img src="/competence/Illustrator.svg" />
+            <img src="/portfolio-marsha-walungua/competence/Illustrator.svg" />
             Illustrator
           </p>
           <p>
-            <img src="/competence/Figma.svg" />
+            <img src="/portfolio-marsha-walungua/competence/Figma.svg" />
             Figma
           </p>
           <p>
-            <img src="/competence/Blender.svg" />
+            <img src="/portfolio-marsha-walungua/competence/Blender.svg" />
             Blender</p>
         </div>
           : null}
@@ -145,41 +145,41 @@ export default function Competences(){
         {type === 'Productivité' ? 
         <div className="pictoContainer">
           <p>
-            <img src="/competence/github.svg" />
+            <img src="/portfolio-marsha-walungua/competence/github.svg" />
             Github
           </p>
             
           <p>
-            <img src="/competence/linux.svg" />
+            <img src="/portfolio-marsha-walungua/competence/linux.svg" />
             Linux
           </p>
             
           <p>
-            <img src="/competence/docker.svg" />
+            <img src="/portfolio-marsha-walungua/competence/docker.svg" />
             Docker
           </p>
           <p>
-            <img src="/competence/mistral.svg" />
+            <img src="/portfolio-marsha-walungua/competence/mistral.svg" />
             Mistral
           </p>
             
           <p>
-            <img src="/competence/N8N.svg" />
+            <img src="/portfolio-marsha-walungua/competence/N8N.svg" />
             N8N
           </p>
           
           <p>
-            <img src="/competence/Notion.svg" />
+            <img src="/portfolio-marsha-walungua/competence/Notion.svg" />
             Notion
           </p>
           
           <p>
-            <img src="/competence/Obsidian.svg" />
+            <img src="/portfolio-marsha-walungua/competence/Obsidian.svg" />
             Obsidian
           </p>
           
           <p>
-            <img src="/competence/Google.svg" />
+            <img src="/portfolio-marsha-walungua/competence/Google.svg" />
             Google Workspace
           </p>
         </div>
