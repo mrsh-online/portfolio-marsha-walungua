@@ -8,6 +8,7 @@ import Background from "./Components/Background/Background.jsx"
 import Certifications from "./Components/Pages/Certifications/Certifications.jsx"
 import Competence from "./Components/Pages/Competences/Competences.jsx"
 import CV from "./Components/Pages/CV/CV.jsx"
+import Projets from "./Components/Pages/Projets/Projet.jsx"
 import Footer from "./Components/Footer.jsx"
 import {BrowserRouter, Routes, Route} from "react-router"
 
@@ -23,6 +24,7 @@ function App() {
         <div className="underHeaderLine"></div>
         <Home lang={lang}/>
         <Work lang={lang}/>
+        <Projets lang={lang}/>
         <Competence />
         <CV lang={lang}/>
         <Contacts lang={lang}/>

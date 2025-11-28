@@ -14,6 +14,7 @@ function Header({setLang}){
         <ul onClick={()=>setActive(false)}>
           <li><a href="#Home">Home</a></li>
           <li><a href="#Work">Work</a></li>
+          <li><a href="#Project">Project</a></li>
           <li><a href="#stack">Stack</a></li>
           <li><a href="#cv">CV</a></li>
           <li><a href="#contact">Contact</a></li>
@@ -21,17 +22,17 @@ function Header({setLang}){
       </nav>
         
         <div onClick={()=>setActive(false)} className="HomeLang">
-          <p onClick={() => setLang("fr")}>FR</p>
-          <p onClick={() => setLang("en")}>EN</p>
+          <button onClick={() => setLang("fr")}>FR</button>
+          <button onClick={() => setLang("en")}>EN</button>
         </div>
         </>
       :""}
 
-      <div className={active === true ? "burger active" : "burger"} onClick={()=>setActive(!active)}>
+      <button className={active === true ? "burger active" : "burger"} onClick={()=>setActive(!active)}>
         <span className="burgerOne"></span>
         <span className="burgerTwo"></span>
         <span className="burgerThree"></span>
-      </div>
+      </button>
       
         <a href="/" className="logo">
       <div className="logoPrenom">

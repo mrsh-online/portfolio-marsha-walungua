@@ -49,6 +49,8 @@ section
     font-size: 30px
   
 header,aside, footer
+  button
+    all: unset
   p, li, a
     font-family: "Alata"
     color: white
@@ -135,6 +137,9 @@ nav
   margin: auto
   gap: 10px
   font-size: 1rem
+  button
+    color: white
+    font-family: alata
     
 .burger
   z-index: 100
@@ -290,7 +295,7 @@ nav
       &:hover
         color: pink
     
-.Work
+.Work, .Projets
   &El
     display: flex
     justify-content: space-around
@@ -332,8 +337,7 @@ nav
   &Type
     display: flex
     flex-wrap: wrap
-    gap:20px
-    padding:20px
+    gap:5px
     justify-content: space-around
     a
       color: white
@@ -450,5 +454,6 @@ nav
   .cv .reactjs-file-preview-preview-file
       max-width: 550px
       
+
       
     
